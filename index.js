@@ -123,7 +123,7 @@ const displayCategory =(categories) =>{
 
     for(let category of categories){
         const li =document.createElement("li");
-        li.innerHTML =`<button  class="category-btn w-full text-left px-2 py-1 bg-[#DCFCE7] rounded hover:bg-[#15803D]"
+        li.innerHTML =`<button  class="category-btn w-full text-left px-2 py-1 bg-[#F0FDF4] rounded hover:bg-[#15803D]"
         onClick ="CategoryClick(${category.id},this)">
         ${category.category_name}
         </button>`;
